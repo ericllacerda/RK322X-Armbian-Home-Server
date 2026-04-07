@@ -77,6 +77,7 @@ Besides the technical challenge, the goals include easing daily tasks, backups a
 - **Gitea** - Project Versioning
 - **Aria2ng** - Download Manager
 - **QBittorrent** - Torrent Manager and Seedbox
+- **Pegasus Frontend / Retropie / Libretro-Cores** - 8/16-bit game emulation
 
 ### QoL:
 - **Heimall** - Dashboarding
