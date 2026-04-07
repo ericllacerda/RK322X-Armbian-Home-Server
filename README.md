@@ -1,5 +1,13 @@
 # RK322X Armbian Home Server
 
+> ### **Tirar leite de pedra**
+> */ti.'ɾaɾ 'lej.tʃi dʒi 'pɛ.dɾɐ/*
+>
+> **Expression** (Brazilian Portuguese)
+> 1. To perform an extremely difficult task with very limited resources.
+> 2. To extract the maximum possible performance out of outdated or low-end hardware.
+> 3. *Literal translation: "To milk a stone".*
+
 This project is intended to be a personal challenge, as well as a step by step guide for those who are interested in building a low-energy, fully-fledged domestic server
 
 ## Index
