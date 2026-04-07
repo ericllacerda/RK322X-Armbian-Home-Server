@@ -56,7 +56,7 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 
 ### Environment and Network:
 - **Armbian** - Well documented for Rockchip CPUs
-- **FTP + SMB + SSH** - Basic management services
+- **FTP + SMB + SSH + NFS** - Basic management services
 - **Wireshark** - Packet analyzer
 - **Nginx** - Integration with TV's Kodi App / Easy file sharing within devices
 
@@ -87,6 +87,8 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 - **Authelia** - Authentication Manager
 - **Nginx Proxy Manager** - Reverse Proxying the Network
 - **ModSecurity** - WAF
+
+Minimalism will be given preference over cutting-edge functionality. I am conscious that most of services listed above will probably be changed
 
 If one or more services are not possible because of network or hardware limitation, I'll make my own
 
