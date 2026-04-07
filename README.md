@@ -63,35 +63,35 @@ Besides the technical challenge, the goals include easing daily tasks, backups a
 - **OpenWRT** - VLAN segmentation, NAT, Edge Firewall and DMZ implementation for safe internet access
 - **FTP + SMB + SSH + NFS** - Basic management services
 - **Wireshark** - Packet analyzer
-- **Unbound / CoreDNS** - Local DNS Server
+- **Unbound || CoreDNS** - Local DNS Server
 - **Nginx** - Integration with TV's Kodi App / Easy file sharing within devices
 
 ### Services:
 - **Docker** - Docker Swarm for Cluster integration/control / Easy service and software management 
 - **Torsocks** - Will be used as a VPN despite low speed
 - **Tailscale** - Opening to the Internet
-- **Pi-Hole / AdGuard Home** - Ad-blocking in LAN
+- **Pi-Hole || AdGuard Home** - Ad-blocking in LAN
 - **Jellyfin** + Jellyseer - Content Streaming and Management
 - **Nextcloud** - Cloud Services
 - **Synthing** - Synchronization Services
 - **Gitea** - Project Versioning
 - **Aria2ng** - Download Manager
 - **QBittorrent** - Torrent Manager and Seedbox
-- **Pegasus Frontend / Retropie / Libretro-Cores** - 8/16-bit game emulation
+- **Pegasus Frontend || Retropie || Libretro-Cores** - 8/16-bit game emulation
 
 ### QoL:
 - **Heimall** - Dashboarding
 - **Stress-NG** - Stress testing
-- **Prometheus + Grafana / Netdata** - Metrics gathering
+- **Prometheus + Grafana || Netdata** - Metrics gathering
 - **Restic** - Backup Services
-- **MergerFS + SnapRAID / Btrfs + RAID 1** - NAS 
+- **MergerFS + SnapRAID || Btrfs + RAID 1** - NAS 
 
 ### Security:
 - **OpenVAS** - Automated Vulnerability Scanner
 - **Lynis** - Compliance and System Configuration auditor
 - **ClamAV** - Heuristic and Signature based Antivirus
 - **pfSense** - Firewall
-- **ELK Stack + Snort/Suricata** - SIEM with IDS/IPS Monitoring
+- **ELK Stack + Snort || Suricata** - SIEM with IDS/IPS Monitoring
 - **Authelia** - Authentication Manager
 - **Nginx Proxy Manager** - Reverse Proxying the Network
 - **ModSecurity** - WAF
