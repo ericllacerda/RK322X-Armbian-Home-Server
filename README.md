@@ -112,4 +112,4 @@ This project would not be possible without the following books/guides that inspi
 - Servidores Linux: Guia Prático - Morimoto
 - The Hitchhiker's Guide to Anonimity - AnonymousPlanet
 
-and the various guide in the [Useful Links](./useful-links) file 
+and the various guides in the [Useful Links](./useful-links) file 
