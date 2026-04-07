@@ -12,33 +12,54 @@ We'll be using:
 
 Despite the high targeted software goal, the hardware will be simplified to things I already have at home, or cheap devices/tools I can easily find locally
 
+## Images
+
+The main image used can be downloaded with: 
+```bash
+wget https://users.armbian.com/users.armbian.com/jock/web/rk322x/armbian/stable/Armbian_22.02.0-trunk_Rk322x-box_bullseye_legacy_4.4.194_minimal.img.xz
+```
+
+For the Multitool installation image download:
+```bash
+wget https://users.armbian.com/users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz
+```
+
+Respectivelly, the SHA512 signatures are:
+```bash
+```
+
+Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I managed to run during testing
+
+### Disclaimer:
+    I am not responsible for building, compiling or maintaing any of the above images. Use them at your own risk
+
 ## Architecture and Goals
 
-Armbian - Well documented for Rockchip CPUs
-Nginx - Integration with TV's Kodi App / Easy file sharing within devices
-Docker - Docker Swarm for Cluster integration / Easy service and software management 
-Torsocks - Will be used as a VPN despite low speed
-Tailscale - Opening to the Internet
-Pi-Hole - Ad-blocking in LAN
-Nginx Proxy Manager - Reverse Proxying the Network
-ModSecurity - WAF
-Authelia - Authentication Manager
-Jellyfin - Content Streaming
-Jellyseer - Content Management
-Nextcloud - Cloud Sevrices
-Synthing - Synchronization Services
-ELK Stack + Snort/Suricata - SIEM with IDS/IPS Monitoring
-Gitea - Project Versioning
-Aria2ng - Download Manager
-QBittorrent - Torrent Manager
-Iptables - Firewall
-Prometheus+Grafana/Netdata - Metrics gathering
-ClamAV - Heuristic and Signature based Antivirus
-Lynis - Compliance and System Configuration auditor
-Wireshark - Packet analyzer
-FTP + SMB + SSH - Basic management services
-Heimall - Dashboarding
-Restic - Backup Services
+- Armbian - Well documented for Rockchip CPUs
+- Nginx - Integration with TV's Kodi App / Easy file sharing within devices
+- Docker - Docker Swarm for Cluster integration / Easy service and software management 
+- Torsocks - Will be used as a VPN despite low speed
+- Tailscale - Opening to the Internet
+- Pi-Hole - Ad-blocking in LAN
+- Nginx Proxy Manager - Reverse Proxying the Network
+- ModSecurity - WAF
+- Authelia - Authentication Manager
+- Jellyfin - Content Streaming
+- Jellyseer - Content Management
+- Nextcloud - Cloud Sevrices
+- Synthing - Synchronization Services
+- ELK Stack + Snort/Suricata - SIEM with IDS/IPS Monitoring
+- Gitea - Project Versioning
+- Aria2ng - Download Manager
+- QBittorrent - Torrent Manager
+- Iptables - Firewall
+- Prometheus + Grafana / Netdata - Metrics gathering
+- ClamAV - Heuristic and Signature based Antivirus
+- Lynis - Compliance and System Configuration auditor
+- Wireshark - Packet analyzer
+- FTP + SMB + SSH - Basic management services
+- Heimall - Dashboarding
+- Restic - Backup Services
 
 If one or more services are not possible for network or hardware limitation, I'll make my own
 
