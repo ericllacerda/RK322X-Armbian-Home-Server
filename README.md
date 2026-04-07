@@ -74,4 +74,4 @@ If one or more services are not possible because of network or hardware limitati
 
 Concerning security and learning, I'll also report any attempted Pentests against the server by me or my friends on this guide
 
-## Harware Preparation
+## Hardware Preparation
