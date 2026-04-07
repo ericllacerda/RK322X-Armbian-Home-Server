@@ -54,31 +54,39 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 
 ## Architecture and Goals
 
+### Environment and Network:
 - **Armbian** - Well documented for Rockchip CPUs
+- **FTP + SMB + SSH** - Basic management services
+- **Wireshark** - Packet analyzer
 - **Nginx** - Integration with TV's Kodi App / Easy file sharing within devices
+
+### Services:
 - **Docker** - Docker Swarm for Cluster integration/control / Easy service and software management 
 - **Torsocks** - Will be used as a VPN despite low speed
 - **Tailscale** - Opening to the Internet
 - **Pi-Hole** - Ad-blocking in LAN
-- **Nginx Proxy Manager** - Reverse Proxying the Network
-- **ModSecurity** - WAF
-- **Authelia** - Authentication Manager
 - **Jellyfin** + Jellyseer - Content Streaming and Management
 - **Nextcloud** - Cloud Services
 - **Synthing** - Synchronization Services
-- **ELK Stack + Snort/Suricata** - SIEM with IDS/IPS Monitoring
 - **Gitea** - Project Versioning
 - **Aria2ng** - Download Manager
 - **QBittorrent** - Torrent Manager and Seedbox
-- **pfSense** - Firewall
-- **Prometheus + Grafana / Netdata** - Metrics gathering
-- **ClamAV** - Heuristic and Signature based Antivirus
-- **Lynis** - Compliance and System Configuration auditor
-- **Wireshark** - Packet analyzer
-- **FTP + SMB + SSH** - Basic management services
+
+### QoL:
 - **Heimall** - Dashboarding
-- **OpenVAS** - Automated Vulnerability Scanner
+- **Stress-NG** - Stress testing
+- **Prometheus + Grafana / Netdata** - Metrics gathering
 - **Restic** - Backup Services
+
+### Security:
+- **OpenVAS** - Automated Vulnerability Scanner
+- **Lynis** - Compliance and System Configuration auditor
+- **ClamAV** - Heuristic and Signature based Antivirus
+- **pfSense** - Firewall
+- **ELK Stack + Snort/Suricata** - SIEM with IDS/IPS Monitoring
+- **Authelia** - Authentication Manager
+- **Nginx Proxy Manager** - Reverse Proxying the Network
+- **ModSecurity** - WAF
 
 If one or more services are not possible because of network or hardware limitation, I'll make my own
 
