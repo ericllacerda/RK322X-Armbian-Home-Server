@@ -60,7 +60,7 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 - **Gitea** - Project Versioning
 - **Aria2ng** - Download Manager
 - **QBittorrent** - Torrent Manager and Seedbox
-- **Iptables** - Firewall
+- **pfSense** - Firewall
 - **Prometheus + Grafana / Netdata** - Metrics gathering
 - **ClamAV** - Heuristic and Signature based Antivirus
 - **Lynis** - Compliance and System Configuration auditor
