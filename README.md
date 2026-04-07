@@ -10,6 +10,8 @@
 
 This project is intended to be a personal challenge, as well as a step by step guide for those who are interested in building a low-energy, fully-fledged domestic server
 
+![MXQ Pro TV Box](pictures/pic1.jpg "MXQ Pro TV Box")
+
 ## Index
 - [Hardware Stack](#hardware-stack)
 - [Images](#images)
