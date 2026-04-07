@@ -17,6 +17,7 @@ This project is intended to be a personal challenge, as well as a step by step g
 - [Images](#images)
 - [Architecture and Goals](#architecture-and-goals)
 - [Hardware Preparation](#hardware-preparation)
+- [Honorable Mentions](#honorable-mentions)
 
 ## Hadware Stack
 
@@ -24,6 +25,7 @@ We'll be using:
 - **Nodes:** 3x MXQ Pro TV Boxes (Rockchip RK322x - 1GB RAM / 8GB eMMC)
 - **Network:** 1x Intelbras SF 800Q+ FastEthernet Switch
 - **Storage**: 1x Generic Sata M/M USB 3.0 Adapter and 1x Samsung 2.5" 1TB HDD
+- **Router**: 1x TP-Link WR740N with OpenWRT
 - **Gateway:** 1x Archer C3 Domestic Router 
 
 Despite the high targeted software goal, the hardware will be simplified to things I already have at home, or cheap devices/tools I can easily find locally
@@ -54,17 +56,21 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 
 ## Architecture and Goals
 
+Besides the technical challenge, the goals include easing daily tasks, backups and cross-platform synchronization and my overall security hardening and enhancing
+
 ### Environment and Network:
 - **Armbian** - Well documented for Rockchip CPUs
+- **OpenWRT** - VLAN segmentation, NAT, Edge Firewall and DMZ implementation for safe internet access
 - **FTP + SMB + SSH + NFS** - Basic management services
 - **Wireshark** - Packet analyzer
+- **Unbound / CoreDNS** - Local DNS Server
 - **Nginx** - Integration with TV's Kodi App / Easy file sharing within devices
 
 ### Services:
 - **Docker** - Docker Swarm for Cluster integration/control / Easy service and software management 
 - **Torsocks** - Will be used as a VPN despite low speed
 - **Tailscale** - Opening to the Internet
-- **Pi-Hole** - Ad-blocking in LAN
+- **Pi-Hole / AdGuard Home** - Ad-blocking in LAN
 - **Jellyfin** + Jellyseer - Content Streaming and Management
 - **Nextcloud** - Cloud Services
 - **Synthing** - Synchronization Services
@@ -77,6 +83,7 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 - **Stress-NG** - Stress testing
 - **Prometheus + Grafana / Netdata** - Metrics gathering
 - **Restic** - Backup Services
+- **MergerFS + SnapRAID / Btrfs + RAID 1** - NAS 
 
 ### Security:
 - **OpenVAS** - Automated Vulnerability Scanner
@@ -96,3 +103,13 @@ Concerning security and learning, I'll also report any attempted Pentests agains
 
 Security measures will be arbitrarily implemented at the very end of configuration due to security testing, so will opening to the internet
 ## Hardware Preparation
+
+## Honorable Mentions
+
+This project would not be possible without the following books/guides that inspired me:
+- Computer Networks: A Top-Down Approach - Kurose & Ross
+- Applied Network Security Monitoring - Sanders & Smith
+- Servidores Linux: Guia Prático - Morimoto
+- The Hitchhiker's Guide to Anonimity - AnonymousPlanet
+
+and the various guide in the [Useful Links](./useful-links) file 
