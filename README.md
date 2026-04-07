@@ -71,7 +71,7 @@ Besides the technical challenge, the goals include easing daily tasks, backups a
 - **Torsocks** - Will be used as a VPN despite low speed
 - **Tailscale** - Opening to the Internet
 - **Pi-Hole || AdGuard Home** - Ad-blocking in LAN
-- **Jellyfin** + Jellyseer - Content Streaming and Management
+- **Jellyfin + Jellyseer** - Content Streaming and Management
 - **Nextcloud** - Cloud Services
 - **Synthing** - Synchronization Services
 - **Gitea** - Project Versioning
