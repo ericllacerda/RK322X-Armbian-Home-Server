@@ -82,4 +82,5 @@ If one or more services are not possible because of network or hardware limitati
 
 Concerning security and learning, I'll also report any attempted Pentests against the server by me or my friends on this guide
 
+Security measures will be arbitrily implemented at the very end of configuration due to security testing, so will opening to the internet
 ## Hardware Preparation
