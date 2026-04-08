@@ -17,8 +17,8 @@ This project is intended to be a personal challenge, as well as a step by step g
 - [Images](#images)
 - [Architecture and Goals](#architecture-and-goals)
 - [Hardware Preparation](#hardware-preparation)
-- [Honorable Mentions](#honorable-mentions)
 - [Armbian Installation and Initial Configuration](#armbian-installation-and-initial-configuration)
+- [Honorable Mentions](#honorable-mentions)
 
 ## Hadware Stack
 
