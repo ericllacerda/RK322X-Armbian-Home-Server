@@ -111,7 +111,7 @@ By disassembling the devices, we can find the model (or at least an estimate) of
 
 ![CPU Identification](pictures/pic2.jpg "CPU Identification")
 
-You can consider this step optional, since the manufacture of these motherboards are so irregular some contain straight up wrong information:
+You can consider this step optional, since the manufacturing of these motherboards are so irregular some contain straight up wrong information:
 
 ![Wrong Information](pictures/pic3.jpg "Wrong Information")
 
@@ -121,9 +121,9 @@ I went for a simple rack-like design. The TV boxes and switch were stacked using
 
 ![The Build](pictures/pic4.jpg "The Build")
 
-The nodes are now ready for the OS installation
-
 Each TV Box will be powered by the provided 5V 2A power adapter. For safety reasons, I'll connect them to a surge protector power strip
+
+The nodes are now ready for the OS installation
 
 ## Armbian Installation and Initial Configuration
 
