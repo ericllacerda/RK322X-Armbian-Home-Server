@@ -22,9 +22,9 @@ This project is intended to be a personal challenge, as well as a step by step g
 ## Hadware Stack
 
 We'll be using:
-- **Nodes:** 3x MXQ Pro TV Boxes (Rockchip RK322x - 1GB RAM / 8GB eMMC)
+- **Nodes:** 4x MXQ Pro TV Boxes (Rockchip RK322x - 1GB RAM / 8GB eMMC)
 - **Network:** 1x Intelbras SF 800Q+ FastEthernet Switch
-- **Storage**: 1x Generic Sata M/M USB 3.0 Adapter and 1x Samsung 2.5" 1TB HDD
+- **Storage**: 2x Generic Sata M/M USB 3.0 Adapter, 1x Samsung 2.5" 1TB HDD and 1x Fujitsu 2.5" 80GB HDD
 - **Router**: 1x TP-Link WR740N with OpenWRT
 - **Gateway:** 1x Archer C3 Domestic Router 
 
@@ -56,7 +56,7 @@ Armbian 22.02.0 with Linux Kernel 4.4.194 was chosen because it's the newest I m
 
 ## Architecture and Goals
 
-Besides the technical challenge, the goals include easing daily tasks, backups and cross-platform synchronization and my overall security hardening and enhancing
+Besides the technical challenge, the goals include easing daily tasks, backups, cross-platform synchronization and my overall security hardening and enhancing
 
 ### Environment and Network:
 - **Armbian** - Well documented for Rockchip CPUs
