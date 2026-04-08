@@ -107,7 +107,7 @@ Security measures will be arbitrarily implemented at the very end of configurati
 
 ## Hardware Preparation
 
-By disassembling the devices, we can find the model (or at least an estimate) of the CPU model on stickers of the PCB itself. This version of Armbian supports RK3228A, RK3228B and RK3229:
+By disassembling the devices, we can find the model (or at least an estimate) of the CPU on stickers or the PCB itself. This version of Armbian supports RK3228A, RK3228B and RK3229:
 
 ![CPU Identification](pictures/pic2.jpg "CPU Identification")
 
