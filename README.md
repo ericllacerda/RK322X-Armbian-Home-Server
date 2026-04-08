@@ -18,6 +18,7 @@ This project is intended to be a personal challenge, as well as a step by step g
 - [Architecture and Goals](#architecture-and-goals)
 - [Hardware Preparation](#hardware-preparation)
 - [Honorable Mentions](#honorable-mentions)
+- [Armbian Installation and Initial Configuration](#armbian-installation-and-initial-configuration)
 
 ## Hadware Stack
 
@@ -103,7 +104,28 @@ If one or more services are not possible because of network or hardware limitati
 Concerning security and learning, I'll also report any attempted Pentests against the server by me or my friends on this guide
 
 Security measures will be arbitrarily implemented at the very end of configuration due to security testing, so will opening to the internet
+
 ## Hardware Preparation
+
+By disassembling the devices, we can find the model (or at least an estimate) of the CPU model on stickers of the PCB itself. This version of Armbian supports RK3228A, RK3228B and RK3229:
+
+![CPU Identification](pictures/pic2.jpg "CPU Identification")
+
+You can consider this step optional, since the manufacture of these motherboards are so irregular some contain straight up wrong information:
+
+![Wrong Information](pictures/pic3.jpg "Wrong Information")
+
+During the installation process, only supported RK322X chips will boot and install. The RK3229 will have slightly more processing power (about 100 to 200mhz) and sometimes will come with 2GB of memory. The ones I have only came in 1GB sets
+
+I went for a simple rack-like design. The TV boxes and switch were stacked using double sided tape, which allows me to easily remove any device in the misfortune of a problem, but still being reliable in holding everything together. To finish the starting build, I connected each node to the switch using a CAT 5 cable:
+
+![The Build](pictures/pic4.jpg "The Build")
+
+The nodes are now ready for the OS installation
+
+Each TV Box will be powered by the provided 5V 2A power adapter. For safety reasons, I'll connect them to a surge protector power strip
+
+## Armbian Installation and Initial Configuration
 
 ## Honorable Mentions
 
