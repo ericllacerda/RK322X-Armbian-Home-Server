@@ -111,13 +111,13 @@ By disassembling the devices, we can find the model (or at least an estimate) of
 
 ![CPU Identification](pictures/pic2.jpg "CPU Identification")
 
-You can consider this step optional, since the manufacturing of these motherboards are so irregular some contain straight up wrong information:
+The only way to truly find out is to remove the heat sink, but the low quality thermal pad will not get reattached. You can consider this step optional, since the manufacturing of these motherboards is so irregular, some contain straight up wrong information:
 
 ![Wrong Information](pictures/pic3.jpg "Wrong Information")
 
 During the installation process, only supported RK322X chips will boot and install. The RK3229 will have slightly more processing power (about 100 to 200mhz) and sometimes will come with 2GB of memory. The ones I have only came in 1GB sets
 
-I went for a simple rack-like design. The TV boxes and switch were stacked using double sided tape, which allows me to easily remove any device in the misfortune of a problem, but still being reliable in holding everything together. To finish the starting build, I connected each node to the switch using a CAT 5 cable:
+I went for a simple rack-like design. The TV Boxes and switch were stacked using double sided tape, which allows me to easily remove any device in the misfortune of a problem, but still being reliable in holding everything together. To finish the starting build, I connected each node to the switch using a CAT 5 cable:
 
 ![The Build](pictures/pic4.jpg "The Build")
 
